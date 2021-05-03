@@ -1,0 +1,130 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #91987c;
+}
+h1,
+h2,
+h3 {
+  color: rgb(24, 25, 26);
+  font-family: monospace;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 17px;
+  padding: 0;
+  background-color: #979443;
+  border: 2px #16afeb;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+h1:hover {
+  border-radius: 20px;
+  border: 2px #16afeb;
+  background-color: #b6b12a;
+  cursor: pointer;
+}
+h3:hover {
+  border: 2px solid rgb(15, 15, 15);
+  border-radius: 20px;
+  padding: 0px;
+  background-color: #b6b12a;
+  cursor: pointer;
+}
+
+p {
+  text-align: justify;
+  font-size: 12px;
+  font-style: oblique;
+  color: rgb(239, 242, 245);
+  font-family: monospace;
+  border: black;
+  padding: 0px;
+  border: 10px black;
+}
+.company {
+  color: gold;
+  display: block;
+  font-size: 12px;
+  font-weight: 100%;
+  text-align: left;
+}
+company:hover {
+  cursor: pointer;
+  text-decoration: underline black;
+}
+
+a {
+  color: rgb(41, 233, 137);
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 900;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline #45a5e6;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: 20px;
+  border-color: #f39a5d;
+}
+.price {
+  font-weight: bolder;
+  color: rgb(245, 241, 18);
+}
+lu {
+  list-style: none;
+  text-align: center;
+}
+li {
+  font-family: monospace;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  color: blanchedalmond;
+  font-size: 12px;
+}
+button {
+  text-align: justify;
+  margin: 0 auto;
+  display: block;
+  background-color: #593e31;
+  color: hsla(86, 30%, 95%, 0.932);
+  font-size: 16px;
+  line-height: 10px;
+  padding: 11px 10px;
+  border: 2px solid black;
+  border-radius: 26px;
+  font-family: monospace;
+  transition: all 200ms ease;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+button:hover {
+  color: #593e31;
+  background-color: #979443;
+  cursor: pointer;
+}
+.container {
+  max-width: 600px;
+  max-height: 50%;
+  margin: 0 auto;
+  padding: 40px 40px;
+  background-color: #4a5d23;
+  border-radius: 45px;
+  border-color: darkgreen;
+  border-style: groove;
+  box-shadow: 5px 5px 5px rgba(23, 29, 6, 0.7);
+}
+.description {
+  color: #f5b030;
+  margin: 0;
+  font-family: monospace;
+  font-size: 12px;
+  padding: 10px 0;
+  text-align: left;
+}
